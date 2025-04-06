@@ -39,9 +39,9 @@ function checkItem(){
 
     if(theInput.value !== ''){
         if(localStorage.getItem(theInput.value)){
-            results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Found In Your LocalStorage<span>!</span>`;
+            results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Found In Your LocalStorage!`;
         }else{
-            results.innerHTML = `No Item With The Name <span>${theInput.value}</span> Was Found In Your LocalStorage<span>!</span>`;
+            results.innerHTML = `No Item With The Name <span>${theInput.value}</span> Was Found In Your LocalStorage!`;
         }
     }else{
         emptyInput();
@@ -52,7 +52,7 @@ function checkItem(){
 function addItem(){
     if(theInput.value !== ''){
         localStorage.setItem(theInput.value, "added");
-        results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Added From Your LocalStorage<span>!</span>`
+        results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Added From Your LocalStorage!`
 
 
     }else{
@@ -64,7 +64,7 @@ function deleteItem(){
     if(theInput.value !== ''){
         if(localStorage.getItem(theInput.value)){
             localStorage.removeItem(theInput.value);
-            results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Deleted From Your LocalStorage<span>!</span>`
+            results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Deleted From Your LocalStorage!`
 
         }
         else{
