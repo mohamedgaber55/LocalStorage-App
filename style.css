@@ -30,7 +30,7 @@ header h2{
     color: #2196F3;
     border-radius: 0px 0px 100px 100px;
     margin: 0;
-    padding: 12px 0px;
+    padding: 10px 0px;
     font-size: 30px;
 }
 
@@ -39,6 +39,7 @@ header h2{
     padding: 20px;
     background-color: #EEE;
     margin: 0 10px;
+    margin-bottom: 30px;
 }
 
 .container input{
