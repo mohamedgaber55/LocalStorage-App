@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-family: "Titillium Web", sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    max-height: 100vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header h2{
+    width: 350px;
+    text-align: center;
+    box-shadow: rgb(221, 221, 221) 0px 0px 10px;
+    color: #2196F3;
+    border-radius: 0px 0px 100px 100px;
+    margin: 0;
+    padding: 12px 0px;
+    font-size: 30px;
+}
+
+.container{
+    max-width: 600px;
+    padding: 20px;
+    background-color: #EEE;
+    margin: 0 10px;
+}
+
+.container input{
+    padding: 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.container input:focus{
+    outline: none;
+}
+
+.container .buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.container .buttons span{
+    background-color: #2196F3;
+    color: white;
+    padding: 6px 10px;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container .results{
+    background-color: white;
+    padding: 20px;
+    border: 1px dashed #EEE;
+    text-align: center;
+}
+
+.container .results span span{
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.container .results span .key{
+    color: #2196F3;
+    display: block;
+}
+footer{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+}
+footer span{
+    color: #03A9F4;
+    font-weight: bold;
+}
