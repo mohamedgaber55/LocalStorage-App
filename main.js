@@ -52,7 +52,7 @@ function checkItem(){
 function addItem(){
     if(theInput.value !== ''){
         localStorage.setItem(theInput.value, "added");
-        results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Added From Your LocalStorage!`
+        results.innerHTML = `An item with the name <span>${theInput.value}</span> was Added to your LocalStorage!`
 
 
     }else{
@@ -64,7 +64,7 @@ function deleteItem(){
     if(theInput.value !== ''){
         if(localStorage.getItem(theInput.value)){
             localStorage.removeItem(theInput.value);
-            results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Deleted From Your LocalStorage!`
+            results.innerHTML = `An item with the name <span>${theInput.value}</span> was Deleted from your LocalStorage!`
 
         }
         else{
