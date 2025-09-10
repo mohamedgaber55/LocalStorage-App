@@ -3,6 +3,10 @@ let allSpans = document.querySelectorAll(".buttons span");
 let results = document.querySelector(".results span");
 let theInput = document.getElementById("the-input");
 
+window.onload  = function(){
+    theInput.focus()
+}
+
 allSpans.forEach((span) => {
 
     span.addEventListener("click", (e) => {
