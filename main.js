@@ -39,9 +39,9 @@ function checkItem(){
 
     if(theInput.value !== ''){
         if(localStorage.getItem(theInput.value)){
-            results.innerHTML = `An Item With The Name <span>${theInput.value}</span> Was Found In Your LocalStorage!`;
+            results.innerHTML = `An item with the name <span>${theInput.value}</span> was found in your LocalStorage!`;
         }else{
-            results.innerHTML = `No Item With The Name <span>${theInput.value}</span> Was Found In Your LocalStorage!`;
+            results.innerHTML = `No item with the name <span>${theInput.value}</span> was found in your LocalStorage!`;
         }
     }else{
         emptyInput();
