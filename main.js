@@ -68,7 +68,7 @@ function deleteItem(){
 
         }
         else{
-            results.innerHTML = `No Items With The Name <span>${theInput.value}</span>`;
+            results.innerHTML = `No items with the name <span>${theInput.value}</span>`;
         }
     }
     else{
@@ -78,7 +78,7 @@ function deleteItem(){
 
 function showItem(){
     results.innerHTML = '';
-    results.innerHTML = 'Here Are The Items That Were Found: ';
+    results.innerHTML = 'Here are the items that were found: ';
 
     if(localStorage.length){
         for(let [key, value] of Object.entries(localStorage)){
