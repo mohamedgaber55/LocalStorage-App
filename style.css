@@ -42,6 +42,7 @@ header h2{
     padding: 20px;
     background-color: #EEE;
     margin: 0 15px;
+    margin-top: -15px;
 }
 
 .container input{
