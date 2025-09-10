@@ -51,6 +51,7 @@ header h2{
     margin-bottom: 20px;
     font-size: 20px;
     background-color: white;
+    caret-color: #2196F3;
 }
 
 .container input:focus{
